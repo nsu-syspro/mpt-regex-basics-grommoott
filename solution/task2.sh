@@ -1,1 +1,1 @@
-grep "вина\W" ./data/pushkin.txt | wc -w
+grep -io "вина\W" ./data/pushkin.txt | wc -w
